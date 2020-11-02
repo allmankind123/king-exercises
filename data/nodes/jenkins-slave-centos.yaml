@@ -1,0 +1,7 @@
+---
+classes:
+  - jenkins_slave
+      
+
+jenkins_slave::slave::master_url: 'http://192.168.32.15:8080'
+

@@ -1,0 +1,1 @@
+jenkins_server::jenkins::rpm: "http://mirror.math.princeton.edu/pub/jenkins/redhat-stable/jenkins-2.204.4-1.1.noarch.rpm"

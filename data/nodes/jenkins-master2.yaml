@@ -1,0 +1,113 @@
+---
+classes:
+  - jenkins_server
+
+jenkins_server::jenkins::plugins:
+     'plain-credentials':
+          version: '1.7'
+     'jdk-tool':
+          version: '1.4'
+     'jsch':
+          version: '0.1.55.2'
+     'git-client':
+          version: '3.5.1'
+     'workflow-step-api':
+          version: '2.23'
+     'lockable-resources':
+          version: '2.10'
+     'structs':
+          version: '1.20'
+     'credentials':
+          version: '2.3.11'
+     'snakeyaml-api':
+          version: '1.26.3'
+     'workflow-aggregator':
+          version: '2.6'
+     'scm-api':
+          version: '2.6.4'
+     'display-url-api':
+          version: '2.3.3'
+     'pipeline-rest-api':
+          version: '2.18'
+     'gradle':
+          version: '1.36'
+     'apache-httpcomponents-client-4-api':
+          version: '4.5.10-2.0'
+     'trilead-api':
+          version: '1.0.12'
+     'workflow-scm-step':
+          version: '2.11'
+     'branch-api':
+          version: '2.6.0'
+     'workflow-basic-steps':
+          version: '2.21'
+     'bouncycastle-api':
+          version: '2.18'
+     'cloudbees-folder':
+          version: '6.14'
+     'workflow-durable-task-step':
+          version: '2.35'
+     'command-launcher':
+          version: '1.5'
+     'pipeline-stage-view':
+          version: '2.18'
+     'matrix-project':
+          version: '1.18'
+     'workflow-cps-global-lib':
+          version: '2.17'
+     'mailer':
+          version: '1.32.1'
+     'pipeline-build-step':
+          version: '2.13'
+     'pipeline-model-definition':
+          version: '1.7.2'
+     'workflow-api':
+          version: '2.40'
+     'workflow-job':
+          version: '2.40'
+     'workflow-cps':
+          version: '2.84'
+     'ssh-credentials':
+          version: '1.18.1'
+     'credentials-binding':
+          version: '1.24'
+     'pipeline-model-api':
+          version: '1.7.2'
+     'workflow-support':
+          version: '3.5'
+     'pipeline-stage-tags-metadata':
+          version: '1.7.2'
+     'pipeline-input-step':
+          version: '2.12'
+     'pipeline-milestone-step':
+          version: '1.3.1'
+     'durable-task':
+          version: '1.35'
+     'junit':
+          version: '1.29'
+     'momentjs':
+          version: '1.1.1'
+     'workflow-multibranch':
+          version: '2.22'
+     'git-server':
+          version: '1.9'
+     'pipeline-stage-step':
+          version: '2.5'
+     'jackson2-api':
+          version: '2.11.1'
+     'script-security':
+          version: '1.75'
+     'pipeline-graph-analysis':
+          version: '1.10'
+     'pipeline-model-extensions':
+          version: '1.7.2'
+     'jquery-detached':
+          version: '1.2.1'
+     'git':
+          version: '4.4.5'
+     'ace-editor':
+          version: '1.1'
+     'handlebars':
+          version: '1.1.1'
+     'swarm':
+          version: '3.23'

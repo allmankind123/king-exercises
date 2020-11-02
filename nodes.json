@@ -1,0 +1,28 @@
+{
+  "nodes": {
+    "jenkins-master1": {
+      ":vagrant_image": "puppetlabs/centos-7.2-64-puppet",
+      ":forward_port_web": 8080 ,
+      ":forward_port_ssh": 2222 ,
+      ":ip": "192.168.32.5",
+      ":memory": 1024,
+      ":bootstrap": "bootstrap/shell/bootstrap_master.sh"
+    },
+   "jenkins-master2": {
+      ":vagrant_image": "puppetlabs/centos-7.2-64-puppet",
+      ":forward_port_web": 8090 ,
+      ":forward_port_ssh": 2232 ,
+      ":ip": "192.168.32.15",
+      ":memory": 1024,
+      ":bootstrap": "bootstrap/shell/bootstrap_master.sh"
+    },
+   "jenkins-slave-centos": {
+      ":vagrant_image": "puppetlabs/centos-7.2-64-puppet",
+      ":forward_port_web": 8100 ,
+      ":forward_port_ssh": 2233 ,
+      ":ip": "192.168.32.20",
+      ":memory": 1024,
+      ":bootstrap": "bootstrap/shell/bootstrap_agent_centos.sh"
+    }
+  }
+}

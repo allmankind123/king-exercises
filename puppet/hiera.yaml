@@ -1,0 +1,9 @@
+---
+:backends:
+  - yaml
+:yaml:
+  :datadir: "/vagrant/data/"
+:hierarchy:
+  - "nodes/%{::fqdn}"
+  - common
+
